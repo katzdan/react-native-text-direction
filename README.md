@@ -8,16 +8,14 @@ IsRTL(input) - On devices where the functionality is available - the lib will de
 ## Disclaimer
 This module attempts to use the TextClassificationManager which was 'officialy' available in Android 8 RC versions but was then removed (but still there). Since this functionality is not officially supported - I assume no responsibility for any problems using it. Do this at your own risk.
 
-
-
-#### iOS
-
-Currently not supported, Hopefully will be in the future.
+#### Installation
+fetch the source code from this repo into the 'node_modules' folder by running this command from your project's folder:
+npm install git+https://github.com/katzdan/react-native-text-direction.git
 
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.katzdan.RNTextDirectionPackage;` to the imports at the top of the file
+  - Add `import com.katzdan.langdetect.RNTextDirectionPackage;` to the imports at the top of the file
   - Add `new RNTextDirectionPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
@@ -29,9 +27,10 @@ Currently not supported, Hopefully will be in the future.
       compile project(':react-native-text-direction')
   	```
 
-#### Windows
 
-Currently not supported, ptobably never will be.
+#### Windows/iOS
+
+Currently not supported, possibly will be in the future.
 
 ## Usage
 ```javascript
