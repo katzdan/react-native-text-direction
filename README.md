@@ -8,15 +8,6 @@ IsRTL(input) - On devices where the functionality is available - the lib will de
 ## Disclaimer
 This module attempts to use the TextClassificationManager which was 'officialy' available in Android 8 RC versions but was then removed (but still there). Since this functionality is not officially supported - I assume no responsibility for any problems using it. Do this at your own risk.
 
-## Getting started
-
-`$ npm install react-native-text-direction --save`
-
-### Mostly automatic installation
-
-`$ react-native link react-native-text-direction`
-
-### Manual installation
 
 
 #### iOS
