@@ -5,6 +5,9 @@ There are two functions in this library :
 IsAvailabe() - As the TextClassificationManager functnionality is available only in Android 8 - this functions will only return 'true' on Android 8 devices. 
 IsRTL(input) - On devices where the functionality is available - the lib will determine if the String is a RTL one.
 
+## Disclaimer
+This module attempts to use the TextClassificationManager which was 'officialy' available in Android 8 RC versions but was then removed (but still there). Since this functionality is not officially supported - I assume no responsibility for any problems using it. Do this at your own risk.
+
 ## Getting started
 
 `$ npm install react-native-text-direction --save`
